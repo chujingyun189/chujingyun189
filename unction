@@ -1,0 +1,15 @@
+unction spawnSeed(){
+	
+	seed=new Object();
+	seed.x=-50+Math.random()*100;
+	seed.y=25;
+	seed.z=-50+Math.random()*100;
+	seed.vx=.1-Math.random()*.2;
+	seed.vy=-1.5;//*(1+Math.random()/2);
+	seed.vz=.1-Math.random()*.2;
+	seed.born=frames;
+	seeds.push(seed);
+
+————————————————
+版权声明：本文为CSDN博主「论恒」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/m0_66674794/article/details/125162172
