@@ -1,0 +1,11 @@
+ index_schema.addColumn( "inv_no", IndexSchema.ASCENDING );
+        index_schema.addColumn( "item_no", IndexSchema.ASCENDING );
+
+        conn.schemaCreateComplete();
+
+        return conn;
+    }
+
+    /** Populate the Database.
+     * @param conn connection to Database
+     */
