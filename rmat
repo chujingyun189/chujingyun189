@@ -1,0 +1,6 @@
+#jndiCtxFactory="weblogic.jndi.WLInitialContextFactory" 
+#providerURL="t3://jndihost.domain.com:80" 
+#WL_HOME="/usr/local/bea/weblogic700/server" 
+ 
+# You may select to filter the messages by event. 
+# See the javadoc for javax.jms.Message for more 
